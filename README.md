@@ -1,9 +1,9 @@
 # DjangoProject1
 
-#installation
+##installation
 pip install django djangorestframework
 
-##usage
+###usage
 django-admin startproject Mypro
 Mypro- settings.py installed-apps- insert : ‘rest_framework’
 Mypro> python manage.py startapp myapp
@@ -44,4 +44,4 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'rest_framework',
     'myapp'
-#python manage.py runserver
+####python manage.py runserver
